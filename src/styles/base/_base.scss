@@ -1,0 +1,38 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: $secondary;
+    font-size: $m;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:disabled{
+    cursor: default;
+}
+
+html, body, #app, #app>div{
+    height: 100%
+}
+
+.text{
+    margin: 0 $s 0 $s;
+    font-size: $l;
+    align-self: center;
+}
+
+.alignment{
+    padding: $s 0 $s 0;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px solid darken($color: $secondary, $amount: 35%);
+}
+
+.is-active{
+        font-weight: bold;
+}

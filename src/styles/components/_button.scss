@@ -1,0 +1,21 @@
+.goToHomeBtn{
+    padding: $m;
+    background: #461B8E;
+    border: 3px solid lighten($color: #461B8E, $amount: 50%);
+    border-radius: 10px;
+    color: white;
+    margin-bottom: $l;
+    margin-right: $m;
+    margin-top: $l;
+}
+
+.dashButton{
+    text-decoration: none;
+    padding: $s;
+    background:$primary;
+    border: 3px solid lighten($color: #461B8E, $amount: 50%);
+    border-radius: 10px;
+    color: white;
+    align-self: center;
+    margin: 0 $s 0 $s;
+}

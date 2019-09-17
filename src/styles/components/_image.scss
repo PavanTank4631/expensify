@@ -1,0 +1,12 @@
+.image{
+    width: fit-content;
+    height: fit-content;
+}
+
+.image_div{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
