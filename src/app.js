@@ -15,6 +15,10 @@ store.dispatch(addExpense({ description: 'Water bill' }));
 store.dispatch(addExpense({ description: 'Gas bill' }));
 store.dispatch(setTextFilter('Water'));
 
+setTimeout(() => {
+    store.dispatch(setTextFilter('Rent'));
+}, 3000);
+
 const state = store.getState();
 const VisibleExpenses = getVisibleExpenses(state.expenses, state.filters);
 console.log(VisibleExpenses);
@@ -25,4 +29,4 @@ const jsx = (
     </Provider>
 );
 
-ReactDOM.render(<AppRouter />, document.getElementById('app'));
+ReactDOM.render(jsx, document.getElementById('app'));

@@ -35,7 +35,9 @@
     "url-loader": "^2.1.0",
     "uuid": "^3.3.3",
     "validator": "^8.0.0",
-    "webpack": "^3.1.0",
-    "webpack-dev-server": "^2.5.1"
-  }
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  },
+  "devDependencies": {}
 }
