@@ -7,8 +7,7 @@
   "scripts": {
     "serve": "live-server public/",
     "build": "webpack",
-    "dev-server": "webpack-dev-server",
-    "test": "jest"
+    "dev-server": "webpack-dev-server"
   },
   "dependencies": {
     "babel-cli": "^6.24.1",
@@ -20,6 +19,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
     "css-loader": "^3.1.0",
+    "express": "^4.17.1",
     "file-loader": "^4.2.0",
     "live-server": "^1.2.1",
     "moment": "^2.24.0",
@@ -42,8 +42,5 @@
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.8.1"
-  },
-  "devDependencies": {
-    "jest": "^24.9.0"
   }
 }

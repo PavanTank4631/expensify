@@ -6,8 +6,5 @@
   ],
   "plugins": [
     "transform-class-properties"
-  ],
-  "test": [
-      "jest"
   ]
 }
