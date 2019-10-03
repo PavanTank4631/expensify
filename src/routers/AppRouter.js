@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
 import '../styles/styles.scss';
-import DashboardExpensePage from '../components/dashboardExpensePage';
-import DashboardPage from '../components/dashboardPage';
+import DashboardExpensePage from '../components/DashboardExpensePage';
+import DashboardPage from '../components/DashboardPage';
 import EditExpensePage from '../components/EditExpensePage';
 import Header from '../components/Header.js';
 import HelpPage from '../components/HelpPage.js';
