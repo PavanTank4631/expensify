@@ -1,5 +1,5 @@
 import React from 'react';
-import notFoundImage from '../../public/image/404.png';
+import notFoundImage from '../../public/image/unknown.png';
 import { Link} from 'react-router-dom';
 
 
